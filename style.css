@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Soyuz Grotesk";
+    src: url(https://code.s3.yandex.net/pp-kids-web-course/020105/SoyuzGrotesk_Bold.woff)
+        format(woff),
+      url(https://code.s3.yandex.net/pp-kids-web-course/020105/SoyuzGrotesk_Bold.otf)
+        format(opentype);
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url("https://code.s3.yandex.net/pp-kids-web-course/020105/background-city-night.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .buttonsContainer {
+    display: flex;
+    gap: 20px;
+  }
+  
+  button {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #001520;
+    border-radius: 5px;
+    font-family: "Soyuz Grotesk", sans-serif;
+    background: teal;
+    color: yellow;
+    margin: 20px auto;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  }
+  
+  .imageBlock {
+    width: 300px;
+  }
